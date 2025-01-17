@@ -11,12 +11,12 @@ st.markdown("""
         }
         .strip {
             height: 5px;
-            background-color: #FF6347; /* Tomato color for the strip */
+            background-color: #FF6347; 
             margin: 20px 0;
         }
         .section-header {
             color: #6A5ACD;
-            border-bottom: 2px solid #FF6347; /* Red line under section headers */
+            border-bottom: 2px solid #FF6347; 
             padding-bottom: 5px;
         }
     </style>
@@ -94,7 +94,6 @@ certifications = [
 for cert in certifications:
     st.write(f"- {cert}")
 
-# Positions of Responsibility Section
 st.markdown('<div class="strip"></div>', unsafe_allow_html=True)
 st.header("Positions of Responsibility")
 st.markdown('<div class="strip"></div>', unsafe_allow_html=True)
